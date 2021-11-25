@@ -32,6 +32,13 @@
 }
 
 .view-application-btn{
+    padding: 10px 16px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform:none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
     background-color: #EDF6FF;
     color:var(--lightGrey);
     border: 0px;

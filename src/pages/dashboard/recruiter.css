@@ -25,3 +25,46 @@ text-align: left;
     top:80px;
 
 }
+
+.no-jobs-container{
+    position: absolute;
+    top:220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.writing-icon{
+    width:140px;
+}
+.writing-icon img{
+    width: 100%;
+    object-fit: contain;
+}
+.pagination{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+   
+}
+
+.pagination-fix{
+    position: relative;
+    top: 120px;
+}
+
+.btn-left,.btn-right{
+    padding:8px;
+    background: transparent;
+    border-radius: 2px;
+    border:1px solid #9990B6;
+    margin:10px 6px;
+    cursor: pointer;
+}
+.page-num{
+    color:var(--outlineBlue);
+    background-color: #D9EFFF;
+    padding: 8px;
+}

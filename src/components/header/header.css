@@ -9,6 +9,9 @@ header{
     justify-content: space-between;
     border-bottom: 2px solid var(--outlineBlue);
 }
+.header-block a{
+    margin-right:9px;
+}
 .logo{
     font-weight: 600;
     font-size: 22px;
