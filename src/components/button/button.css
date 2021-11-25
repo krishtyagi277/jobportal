@@ -1,0 +1,19 @@
+.btn{
+    padding: 10px 16px;
+    border: 1px solid;
+    border-radius: 3px;
+    text-align: center;
+    text-transform:none;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+    
+  }
+  .btn-comp{
+    margin-top:24px;
+    border:0px !important;
+    background-color: #43AFFF;
+    padding: 13px 28px;
+    font-weight: 500;
+}

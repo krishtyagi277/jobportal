@@ -1,0 +1,9 @@
+.breadcrumb{
+    color:white;
+    width: 80%;
+    text-align: left;
+    position: absolute;
+    top:0px;
+    font-size: 14px;
+    font-weight: 500;
+}
