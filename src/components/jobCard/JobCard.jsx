@@ -1,8 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types"
+import { FaPeriscope} from "react-icons/fa";
 import "./jobcard.css";
 
-function JobCard({title, desc}){
+function JobCard({title, desc, location}){
     return (
         <div className="job-card">
         <h3>
@@ -12,11 +13,11 @@ function JobCard({title, desc}){
         {desc}
         </p>
         <div className="job-apply">
-            <button className="btn view-location">
-                Bengaluru
+            <button className="view-location">
+               <FaPeriscope className="text-blue"/> {location}
             </button>
-            <button className="btn view-application-btn">
-                View Application
+            <button className="view-application-btn">
+                View Applications
             </button>
         </div>
     </div>
@@ -25,6 +26,7 @@ function JobCard({title, desc}){
 
 JobCard.propTypes = {
     title: PropTypes.string,
-    desc: PropTypes.string
+    desc: PropTypes.string,
+    location: PropTypes.string
 }
 export default JobCard;
