@@ -1,0 +1,93 @@
+.signup-banner{
+    height: 280px;
+    position: relative;
+}
+#signup-heading{
+    text-align: left;
+    width: 100%;
+}
+.signup-form{
+    position: absolute;
+    top:10px;
+    width:480px;
+    padding: 20px 22px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.signup-form form{
+    width: 100%;
+}
+.field-label{
+    width: 100%;
+    font-size: 12px;
+    color:#54607B;
+    padding: 4px 0px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.field-error{
+    width: 100%;
+    font-size: 12px;
+    color:red;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.inp-field{
+    width:100%;
+    padding:10px 20px;
+    border:1px solid #C6C6C6;;
+    border-radius: 5px;
+}
+
+.form-element{
+    width: 100%;
+    margin:18px 0px;
+}
+.form-elements-horiz{
+    display: flex;
+    justify-content: space-between;
+}
+.form-elements-horiz > .form-element{
+ width: 48%;
+}
+.form-element-btn{
+    text-align: center;
+}
+
+.login-text{
+    margin-top:20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.field-box{
+    width:50%;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.field-label-box{
+    width:120px;
+    color:var(--outlineBlue);
+    font-size:13px;
+    border:1px solid var(--outlineBlue);
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    margin:0px 3px;
+}
+.box-selected{
+    background-color: #43AFFF;
+    color:white;
+    border:none;
+}
+

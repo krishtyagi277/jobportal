@@ -1,0 +1,26 @@
+header{
+    background: transparent linear-gradient(248deg, #303F60 0%, #1A253C 100%) 0% 0% no-repeat padding-box;
+    padding: 12px 36px;
+    
+}
+.header-block{
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--outlineBlue);
+}
+.header-block a{
+    margin-right:9px;
+}
+.logo{
+    font-weight: 600;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+.btn.btn-login{
+
+    background: #43AFFF33 0% 0% no-repeat padding-box;
+    border-color: skyblue;
+}

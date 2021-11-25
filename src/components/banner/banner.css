@@ -1,0 +1,47 @@
+.banner{
+    background: transparent linear-gradient(248deg, #303F60 0%, #1A253C 100%) 0% 0% no-repeat padding-box;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.l-section, .r-section{
+    width:50%;
+    height:320px;
+}
+.l-section{
+    padding:140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.l-section .banner-title{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.banner-img{
+    position: relative;
+    width:540px;
+}
+img.round-corners{
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+    border-radius: 20px;
+    top:10px;
+    left: 20px;
+}
+
+.btn-start{
+    margin-top:24px;
+    border:0px !important;
+    background-color: #43AFFF;
+    padding: 13px 28px;
+    font-weight: 500;
+}
+
+
+
+
