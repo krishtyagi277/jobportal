@@ -1,0 +1,27 @@
+
+.recruiter-dashboard{
+    height:18vh;
+    background: transparent linear-gradient(248deg, #303F60 0%, #1A253C 100%) 0% 0% no-repeat padding-box;
+    color:#FFFFFF;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+h2.job-post-title{
+width:80%;
+text-align: left;
+
+}
+
+.jobcard-container{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: absolute;
+    top:80px;
+
+}

@@ -1,0 +1,26 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width:320px;
+    background-color: white;
+    padding: 22px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 20px;
+    border-radius: 3px;
+}
+
+.card h3{
+    width: 50%;
+    color: var(--skyblue);
+}
+.card p{
+    width: 220px;
+    font-size: 12px;
+    height: 40px;
+    color: #303F60;
+    white-space:pre-line; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,21 @@
+.card-container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .why-us-section, .cart-section{
+    width: 80%;
+  }
+  .why-us-section{
+    padding: 20px 90px;
+    color:var(--lightGrey);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cart-section{
+    display: flex;
+    padding:10px 40px;
+    justify-content: center;
+  }
