@@ -38,7 +38,7 @@ function Header() {
             <div>
                 {
                    isAuth ? <>
-                   <Link to="/dasboard" className="text-white">
+                   <Link to="/dashboard" className="text-white">
                     Dashboard
                    </Link>
                     <Link to="/create" className="text-white">
