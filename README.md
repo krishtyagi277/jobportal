@@ -46,3 +46,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+
+### GitHub Branch Model
+![image](https://user-images.githubusercontent.com/35443292/143534324-f21b1c7c-bef7-4f57-8ea3-baff3abca58c.png)
+
