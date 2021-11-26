@@ -20,7 +20,6 @@ const initialState = {
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
-  console.log(state)
   return (
     <div className="App">
       <BrowserRouter>

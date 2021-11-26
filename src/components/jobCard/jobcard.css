@@ -16,7 +16,7 @@
     color: var(--lightGrey);
     font-weight: 500;
 }
-.job-card p{
+.job-card .description{
     width: 220px;
     font-size: 12px;
     height: 40px;
@@ -47,4 +47,69 @@
     background-color: white;
     color:var(--lightGrey);
     border: 0px;
+}
+
+.display-jobs-banner{
+    height: 600px;
+    background-color: white;
+}
+#display-jobs-heading{
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.display-jobs-form{
+    width:694px;
+    height: 600px;
+    padding: 30px 22px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.modal-head{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.reset-pass-desc{
+    width:100%;
+    margin:10px;
+    font-size: 13px;
+    text-align: left;
+    width: 100%;
+}
+.fatimes{
+    text-align: right;
+    cursor: pointer;
+}
+
+.applicants-container{
+    background-color: #557DA526;
+    border-radius: 4px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: flex-start;
+}
+.writing-icon-candidate{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.writing-icon-candidate img{
+    width: 140px;
+}
+
+.no-application{
+    color: #303F60;
+    font-size: 18px;
 }

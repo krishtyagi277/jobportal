@@ -1,0 +1,18 @@
+.modal {
+    background: rgba(0, 0, 0, 0.6);
+}
+  .modal-container {
+    position: absolute;
+    background: #ffffff;
+    left: 25%;
+    top: -10%;
+    border-radius: 18px;
+  }
+
+  .d-block{
+      display: block;
+  }
+
+  .d-none{
+      display: none;
+  }
