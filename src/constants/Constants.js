@@ -5,6 +5,7 @@ export const GET_JOBS_POSTED_BY_RECRUITER_URL = `${BASE_URL}/recruiters/jobs`
 export const CREATE_JOBS_BY_RECRUITER_URL = `${BASE_URL}/jobs`
 export const FORGOT_PASSWORD = `${BASE_URL}/auth/resetpassword`
 export const RESET_PASSWORD_API = `${BASE_URL}/auth/resetpassword`
+export const GET_ONE_JOB_CANDIDATE_URL = `${BASE_URL}/recruiters/jobs`
 
 // eslint-disable-next-line no-useless-escape
 export const MAIL_FORMAT = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;

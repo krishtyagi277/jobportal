@@ -59,8 +59,8 @@ function RecruiterDashboard(){
             {  jobsData.length ?
                 <div className="jobcard-container">
             {
-               jobsData.map((jobDetails, index) => (
-                    <JobCard key={index} title={jobDetails.title} desc={jobDetails.description} location={jobDetails.location}/>
+               jobsData.map((jobDetails) => (
+                    <JobCard key={jobDetails.id} jobId={jobDetails.id} title={jobDetails.title} desc={jobDetails.description} location={jobDetails.location}/>
                 ))
             }
             <div className={jobsData.length <= 8?"pagination pagination-fix":"pagination"}>

@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "../../components/banner/Banner";
 import Card from "../../components/card/Card";
+import Solaytic from "../../img/solaytic.png"
+import Kanba from "../../img/kanba.png"
 import "./home.css"
 
 const whyUs = [
@@ -19,6 +21,28 @@ const whyUs = [
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
     }
 ]
+
+const companiesLogo = [{
+    name:Solaytic
+},{
+    name:Kanba
+},{
+    name:Solaytic
+},{
+    name:Kanba
+},{
+    name:Solaytic
+},{
+    name:Kanba
+},{
+    name:Solaytic
+},{
+    name:Kanba
+},{
+    name:Solaytic
+},{
+    name:Kanba
+}]
 function Home(){
     return(
         <>
@@ -35,6 +59,18 @@ function Home(){
               <Card key={item.id} title={item.title} description={item.description}/>
               ))
           }
+      </div>
+      <div className="why-us-section">
+        <h4>
+        Companies Who Trust Us
+        </h4>
+      </div>
+      <div className="company-logos">
+      {companiesLogo.map((logo, index) => (
+           <div className="company-logo" key={index}>
+           <img src={logo.name} alt="logo" />
+       </div>
+      ))}
       </div>
       </div>
         </>

@@ -1,4 +1,4 @@
-import {LOGIN_URL, REGISTER_URL, GET_JOBS_POSTED_BY_RECRUITER_URL, CREATE_JOBS_BY_RECRUITER_URL, FORGOT_PASSWORD, RESET_PASSWORD_API} 
+import {LOGIN_URL, REGISTER_URL, GET_JOBS_POSTED_BY_RECRUITER_URL, CREATE_JOBS_BY_RECRUITER_URL, FORGOT_PASSWORD, RESET_PASSWORD_API, GET_ONE_JOB_CANDIDATE_URL} 
 from "../constants/Constants"
 
 export function LoginApi(loginObj) {
@@ -68,6 +68,18 @@ export function resetPasswordApi(password, confirmPassword){
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({password, confirmPassword, token:JSON.parse(localStorage.getItem("token"))})  
+  })
+     .then(resp => resp.json())
+     .catch(err => err)
+}
+
+export function getOneJobDetails(jobId){
+  return fetch(`${GET_ONE_JOB_CANDIDATE_URL}/${jobId}/candidates`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': JSON.parse(localStorage.getItem("token"))
+    } 
   })
      .then(resp => resp.json())
      .catch(err => err)
